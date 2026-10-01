@@ -1,0 +1,4 @@
+body { font: 18px/1.6 system-ui, sans-serif; margin: 0; background: #fdf9f2; color: #1a1d26; }
+main { max-width: 40rem; margin: 4rem auto; padding: 0 1rem; }
+h1 { font-size: 2rem; line-height: 1.2; }
+code { background: #efe7d6; padding: 0 .3em; border-radius: 4px; }
