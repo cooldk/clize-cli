@@ -34,6 +34,8 @@ What the recorded read said (Search Console window 1–28 Sep 2026 vs 4–31 Aug
 1. **The page AI sends people to must keep its promise.** We used the NS checker by hand and found two gaps: when DNS was healthy it stopped there (the page is for people whose site is still down), and its call to action promised `clize domain check yourdomain.com`, which returns 403 for domains that are not in a Clize account. → The tool now adds a "the fault is above DNS" note with `curl -sI https://<host>/`, and the call to action says which domains the command covers. Eight languages, tool tests 43/43.
 2. **Answer the how-to query the comparison page sits at 12 for.** The page only compared registrar APIs. → Added the five steps, a real quote (`.com` $12.55, nothing bought) and the limits, near the top. Title and H1 unchanged — they earned the impressions.
 
+![The nameserver checker after the change, run on clize-demo.clize.app: the new NOTE line points above DNS (screenshot of the live page, 2026-10-01)](ns-checker-after-change-2026-10-01.jpg)
+
 Not done, on purpose: no new pages for the 285 "missing cells" the check listed; the sample here is too small to justify multiplying anything.
 
 ## 3 · Publish

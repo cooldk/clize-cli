@@ -24,6 +24,8 @@ $ clize deploy ./site                         # 15 s
   "message": "Live at https://clize-demo.clize.app (3 files: 3 KV + 0 R2; …; TLS automatic)" }
 ```
 
+![The deployed demo page at clize-demo.clize.app, screenshot taken 2026-10-01](live-2026-10-01.jpg)
+
 Checked from outside right after:
 
 ```console
